@@ -1,0 +1,18 @@
+{
+  "name": "sharpit",
+  "version": "1.0.0",
+  "description": "A sharp cli utility",
+  "main": "index.js",
+  "author": "Tortitas",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0",
+    "conf": "^11.0.1",
+    "sharp": "^0.31.3"
+  },
+  "bin": {
+    "sharpit": "./index.js"
+  }
+}
