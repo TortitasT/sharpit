@@ -4,4 +4,9 @@ export default {
     node: true,
     es6: true
   },
+  extends: [
+    'eslint:recommended',
+    'plugin:node/recommended',
+    'plugin:prettier/recommended'
+  ],
 }
